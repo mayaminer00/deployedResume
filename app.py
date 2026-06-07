@@ -15,8 +15,8 @@ with st.sidebar:
     st.title("🚀 Maya Koushik")
 
     st.markdown("""
-    **AI/ML Undergraduate**
-    Backend Developer
+Computer Science Student
+Passionate About Software Development & AI
     """)
 
     st.markdown("---")
