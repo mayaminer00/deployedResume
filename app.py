@@ -10,7 +10,7 @@ st.set_page_config(
 
 with st.sidebar:
 
-    st.image("profile.jpg", width=200)
+    st.image("88bbde32-df35-4efa-b66f-a359e7876e81.jpg", width=200)
 
     st.title("🚀 Maya Koushik")
 
