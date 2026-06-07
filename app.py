@@ -9,10 +9,13 @@ st.set_page_config(
 # ---------- SIDEBAR ----------
 
 with st.sidebar:
+
+    st.image("profile.jpg", width=200)
+
     st.title("🚀 Maya Koushik")
 
     st.markdown("""
-    **AI/ML Undergraduate**  
+    **AI/ML Undergraduate**
     Backend Developer
     """)
 
@@ -33,7 +36,8 @@ with st.sidebar:
     st.download_button(
         "📄 Download Resume",
         data=open("koushikmaya_resume.pdf", "rb"),
-        file_name="Maya_Koushik_Resume.pdf"
+        file_name="Maya_Koushik_Resume.pdf",
+        mime="application/pdf"
     )
 
 # ---------- HEADER ----------
